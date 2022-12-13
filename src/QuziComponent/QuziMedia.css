@@ -1,0 +1,45 @@
+@media(max-width:768px)and(min-width:375px) {
+    .app{
+        width: 250px;
+        height: 400px;
+        height: min-content;
+        position: relative;
+        display: contents;
+    }
+    .question-section{
+        top: 0px;
+        justify-content: center;
+        display: block;
+        align-items: center;
+    }
+    .answer-section{
+        display: block;
+
+    }
+    button{
+        justify-content: center;
+    }
+}
+
+@media(max-width:460px)and(min-width:320px){
+    .app{
+        width: 250px;
+        height: 400px;
+        height: min-content;
+        position: relative;
+        display: flex;
+    }
+    .question-section{
+        top: 0px;
+        justify-content: center;
+        display: block;
+        align-items: center;
+    }
+    .answer-section{
+        display: block;
+
+    }
+    button{
+        justify-content: center;
+    }
+}
